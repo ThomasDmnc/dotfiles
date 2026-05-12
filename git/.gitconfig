@@ -1,0 +1,19 @@
+[user]
+	email = thomas.demoncy@gmail.com
+	name = Thomas Demoncy
+	signingkey = 434D2A320C1865AB
+[init]
+  defaultBranch = main
+[commit]
+	gpgsign = true
+[gpg]
+  program = gpg
+	format = openpgp
+[push]
+  autoSetupRemote = true
+[core]
+	editor = code --wait
+	autocrlf = false
+	eol = lf
+[tag]
+	gpgSign = true
