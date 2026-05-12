@@ -1,0 +1,7 @@
+gh/.config/gh/hosts.yml
+**/credentials
+**/*.token
+**/*.key
+.env
+.env.*
+**/.DS_Store
